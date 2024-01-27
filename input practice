@@ -1,0 +1,17 @@
+
+// c++ practice
+//  Input Practice Program
+#include<iostream>
+using namespace std;
+int main()
+{
+	//create a variable to store data/input
+	int age;
+	//prompt the user
+	cout << " Enter an Age: ";
+	cin >> age;
+	//display output
+	cout << "Your Age is " << age << "!" << endl;
+	system("pause");
+	return 0;
+}
